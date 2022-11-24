@@ -1,0 +1,88 @@
+<!DOCTYPEhtml>
+<html>
+
+ <head>
+   <header>
+  <h1 id="title"> AJEIT MADE FORM </h1>
+  <P id="description">Tackeling first project </P>
+  </header>
+
+  <link rel="stylesheet" href="styles.css">
+ </head>
+
+ <body>
+  <main>
+   <form id="survey-form">
+
+     <div class="headings">
+
+    <label for="name" id="name-label">Name : </label>
+    <input id="name" type="text" placeholder="name" required class="forminputs"></input>
+
+    </br>
+
+    <label for="email" id="email-label">Email : </label>
+    <input id="email" type="email" placeholder="Email" required class="forminputs" ></input>
+
+    </br>
+
+    <label for="number" id="number-label">Age : </label>
+    <input id="number" type="number" required  min="13" max="100" placeholder="Age" class="forminputs" ></input>
+    
+    </br> 
+
+    
+    <label for="dropdown" >Choose One : </label>
+     <select id="dropdown" class="forminputs">
+      <option> ajeit</option>
+      <option>ajeet </option>
+     </select>
+
+    </br>
+
+    <label  >Priorities : </label> </br>
+    <input type="radio" name="priorities" value="radio-name" id="priorities"
+    <label>tea</label> 
+
+    </br>
+
+     <input type="radio" name="priorities" value="radio-name" id="priorities"
+    <label>coffee</label>
+
+    </br>
+
+    <label for="timeframe">Choose your way : </label> </br>
+
+    <input type="checkbox" value="0" id="timeframe"
+    <label>Morning</label>
+
+    </br>
+
+    <input type="checkbox" value="1" id="timeframe"
+    <label>Night</label>
+
+    </br>
+
+    <input type="checkbox" value="2" id="timeframe"
+    <label>Evening</label>
+
+    </br>
+    <label for="about" >Some thoughts : </label> </br>
+    <textarea id="about"></textarea>
+
+     </br>
+
+    <input type="submit" id="submit" class="submit-button"></input>
+
+   </div>
+
+
+   </form>
+
+  </main>
+ </body>
+
+
+
+
+</html>
